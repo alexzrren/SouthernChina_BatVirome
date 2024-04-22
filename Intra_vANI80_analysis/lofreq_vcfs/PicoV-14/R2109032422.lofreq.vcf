@@ -1,0 +1,49 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/PicoV-14/R2109032422.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/PicoV-14/R2109032422.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_63,Description="Minimum SNV Quality (Phred) 63">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+PicoV-14/B98	644	.	A	T	67	PASS	DP=776;AF=0.012887;SB=2;DP4=467,299,5,5
+PicoV-14/B98	654	.	T	A	68	PASS	DP=770;AF=0.015584;SB=11;DP4=464,292,4,8
+PicoV-14/B98	929	.	A	T	87	PASS	DP=1262;AF=0.008716;SB=16;DP4=818,432,11,0
+PicoV-14/B98	931	.	A	T	65	PASS	DP=1302;AF=0.007680;SB=4;DP4=819,472,9,2
+PicoV-14/B98	951	.	A	T	105	PASS	DP=1341;AF=0.014914;SB=15;DP4=782,534,19,4
+PicoV-14/B98	1895	.	A	T	72	PASS	DP=877;AF=0.011403;SB=16;DP4=445,420,9,1
+PicoV-14/B98	1912	.	A	T	65	PASS	DP=641;AF=0.010920;SB=27;DP4=256,378,7,0
+PicoV-14/B98	2549	.	T	A	63	PASS	DP=869;AF=0.010357;SB=14;DP4=525,334,2,7
+PicoV-14/B98	2597	.	A	T	73	PASS	DP=949;AF=0.015806;SB=2;DP4=527,403,11,6
+PicoV-14/B98	2602	.	T	A	66	PASS	DP=1673;AF=0.007173;SB=15;DP4=1086,574,4,8
+PicoV-14/B98	2713	.	A	G	1457	PASS	DP=1604;AF=0.059227;SB=6;DP4=739,762,53,42
+PicoV-14/B98	2735	.	A	T	69	PASS	DP=1370;AF=0.009489;SB=24;DP4=663,692,13,2
+PicoV-14/B98	3078	.	A	T	76	PASS	DP=1462;AF=0.012996;SB=9;DP4=705,737,13,6
+PicoV-14/B98	3295	.	T	A	82	PASS	DP=1208;AF=0.020695;SB=6;DP4=653,521,11,15
+PicoV-14/B98	3329	.	A	G	213	PASS	DP=952;AF=0.027311;SB=1;DP4=400,520,10,16
+PicoV-14/B98	3614	.	T	A	69	PASS	DP=2165;AF=0.007390;SB=27;DP4=1335,811,4,13
+PicoV-14/B98	3631	.	T	A	73	PASS	DP=2455;AF=0.005703;SB=19;DP4=1528,913,4,10
+PicoV-14/B98	3644	.	A	T	119	PASS	DP=2417;AF=0.014894;SB=8;DP4=1407,959,27,10
+PicoV-14/B98	3664	.	A	T	117	PASS	DP=2281;AF=0.010960;SB=29;DP4=1293,962,23,3
+PicoV-14/B98	3665	.	A	T	64	PASS	DP=2295;AF=0.009586;SB=10;DP4=1290,974,17,5
+PicoV-14/B98	4103	.	A	T	80	PASS	DP=623;AF=0.016051;SB=0;DP4=271,339,4,6
+PicoV-14/B98	4488	.	G	A	193	PASS	DP=507;AF=0.047337;SB=0;DP4=290,189,16,9
+PicoV-14/B98	4587	.	G	C	81	PASS	DP=377;AF=0.029178;SB=2;DP4=149,217,3,8
+PicoV-14/B98	6242	.	A	T	116	PASS	DP=1001;AF=0.013986;SB=15;DP4=553,434,12,2
+PicoV-14/B98	6447	.	T	A	119	PASS	DP=3348;AF=0.008363;SB=47;DP4=2195,1123,7,21
+PicoV-14/B98	6449	.	T	A	67	PASS	DP=3509;AF=0.009119;SB=23;DP4=2276,1188,15,21
+PicoV-14/B98	6562	.	A	T	73	PASS	DP=3462;AF=0.004044;SB=28;DP4=1573,1873,13,2
+PicoV-14/B98	6564	.	T	A	91	PASS	DP=3390;AF=0.006195;SB=16;DP4=1549,1817,5,18
+PicoV-14/B98	6975	.	A	T	73	PASS	DP=1771;AF=0.010164;SB=35;DP4=1086,661,18,0
+PicoV-14/B98	7293	.	A	T	64	PASS	DP=2340;AF=0.008547;SB=19;DP4=1495,822,20,2
+PicoV-14/B98	7314	.	A	T	63	PASS	DP=2478;AF=0.007667;SB=21;DP4=1589,866,21,2
+PicoV-14/B98	7315	.	A	T	74	PASS	DP=2478;AF=0.010089;SB=6;DP4=1582,859,20,6
+PicoV-14/B98	7392	.	T	A	65	PASS	DP=2231;AF=0.019722;SB=42;DP4=1126,1046,36,8

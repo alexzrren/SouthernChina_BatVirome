@@ -1,0 +1,19 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/CoV-4/R2109032448.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/CoV-4/R2109032448.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_46,Description="Minimum SNV Quality (Phred) 46">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+CoV-4/CH053	599	.	G	A	100	PASS	DP=17;AF=0.235294;SB=2;DP4=3,10,2,2
+CoV-4/CH053	12673	.	G	T	113	PASS	DP=14;AF=0.285714;SB=2;DP4=3,7,2,2
+CoV-4/CH053	29078	.	T	C	76	PASS	DP=61;AF=0.065574;SB=0;DP4=25,32,2,2

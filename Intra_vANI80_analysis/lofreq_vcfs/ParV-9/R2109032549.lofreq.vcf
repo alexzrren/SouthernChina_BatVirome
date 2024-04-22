@@ -1,0 +1,31 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/ParV-9/R2109032549.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/ParV-9/R2109032549.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_51,Description="Minimum SNV Quality (Phred) 51">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+ParV-9/CH230	435	.	A	G	507	PASS	DP=14;AF=1.000000;SB=0;DP4=0,0,8,6
+ParV-9/CH230	579	.	G	A	354	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,4,6
+ParV-9/CH230	609	.	T	C	346	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,5,5
+ParV-9/CH230	861	.	T	C	508	PASS	DP=15;AF=1.000000;SB=0;DP4=0,0,8,7
+ParV-9/CH230	1956	.	A	G	301	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,3,7
+ParV-9/CH230	1959	.	G	T	320	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,3,7
+ParV-9/CH230	1994	.	T	C	348	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,3,7
+ParV-9/CH230	2376	.	C	T	400	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,8,4
+ParV-9/CH230	2492	.	C	T	55	PASS	DP=13;AF=0.153846;SB=0;DP4=7,4,2,0
+ParV-9/CH230	2716	.	T	C	369	PASS	DP=12;AF=0.916667;SB=0;DP4=0,0,6,6
+ParV-9/CH230	3200	.	T	C	442	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,4,8
+ParV-9/CH230	3230	.	A	G	343	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,4,6
+ParV-9/CH230	3524	.	A	G	349	PASS	DP=13;AF=0.846154;SB=0;DP4=1,1,4,7
+ParV-9/CH230	4269	.	C	T	475	PASS	DP=14;AF=1.000000;SB=0;DP4=0,0,7,7
+ParV-9/CH230	4733	.	C	T	127	PASS	DP=18;AF=0.333333;SB=2;DP4=8,4,3,3

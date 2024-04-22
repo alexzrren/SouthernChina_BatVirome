@@ -1,0 +1,53 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/AstV-37/R2107024478.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/AstV-37/R2107024478.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_48,Description="Minimum SNV Quality (Phred) 48">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+AstV-37/B103	325	.	A	C	118	PASS	DP=33;AF=0.484848;SB=0;DP4=7,0,16,0
+AstV-37/B103	326	.	T	A	49	PASS	DP=33;AF=0.333333;SB=0;DP4=18,0,11,0
+AstV-37/B103	329	.	T	C	117	PASS	DP=33;AF=0.484848;SB=0;DP4=17,0,16,0
+AstV-37/B103	341	.	A	C	68	PASS	DP=42;AF=0.357143;SB=1;DP4=12,6,11,4
+AstV-37/B103	346	.	G	C	68	PASS	DP=45;AF=0.400000;SB=1;DP4=20,7,12,6
+AstV-37/B103	347	.	A	T	310	PASS	DP=45;AF=0.733333;SB=11;DP4=6,6,26,7
+AstV-37/B103	350	.	T	A	231	PASS	DP=45;AF=0.644444;SB=4;DP4=1,1,24,5
+AstV-37/B103	363	.	T	C	115	PASS	DP=59;AF=0.389830;SB=3;DP4=17,19,14,9
+AstV-37/B103	371	.	G	A	116	PASS	DP=59;AF=0.389830;SB=1;DP4=18,18,13,10
+AstV-37/B103	378	.	C	A	129	PASS	DP=58;AF=0.413793;SB=3;DP4=16,18,14,10
+AstV-37/B103	384	.	G	A	537	PASS	DP=58;AF=0.793103;SB=0;DP4=6,6,24,22
+AstV-37/B103	389	.	A	C	57	PASS	DP=58;AF=0.310345;SB=2;DP4=12,13,11,7
+AstV-37/B103	392	.	G	A	254	PASS	DP=54;AF=0.555556;SB=0;DP4=6,6,15,15
+AstV-37/B103	393	.	A	G	183	PASS	DP=54;AF=0.481481;SB=5;DP4=11,17,15,11
+AstV-37/B103	398	.	T	A	74	PASS	DP=59;AF=0.305085;SB=0;DP4=6,6,9,9
+AstV-37/B103	398	.	T	C	74	PASS	DP=59;AF=0.305085;SB=3;DP4=6,6,6,12
+AstV-37/B103	401	.	T	C	91	PASS	DP=59;AF=0.338983;SB=0;DP4=17,22,9,11
+AstV-37/B103	404	.	T	A	199	PASS	DP=59;AF=0.474576;SB=0;DP4=14,17,12,16
+AstV-37/B103	410	.	C	T	793	PASS	DP=48;AF=1.000000;SB=0;DP4=0,0,15,33
+AstV-37/B103	413	.	T	G	98	PASS	DP=48;AF=0.375000;SB=12;DP4=6,24,9,9
+AstV-37/B103	416	.	T	C	54	PASS	DP=45;AF=0.311111;SB=1;DP4=9,22,3,11
+AstV-37/B103	419	.	C	T	67	PASS	DP=36;AF=0.250000;SB=6;DP4=3,10,0,9
+AstV-37/B103	423	.	G	A	320	PASS	DP=35;AF=0.600000;SB=0;DP4=0,6,2,19
+AstV-37/B103	425	.	A	T	171	PASS	DP=35;AF=0.600000;SB=2;DP4=0,14,2,19
+AstV-37/B103	429	.	A	C	74	PASS	DP=35;AF=0.400000;SB=2;DP4=2,19,0,14
+AstV-37/B103	437	.	A	T	59	PASS	DP=35;AF=0.342857;SB=2;DP4=2,21,0,12
+AstV-37/B103	440	.	T	G	89	PASS	DP=29;AF=0.482759;SB=0;DP4=0,15,0,14
+AstV-37/B103	443	.	T	C	62	PASS	DP=29;AF=0.413793;SB=0;DP4=0,17,0,12
+AstV-37/B103	449	.	G	A	75	PASS	DP=29;AF=0.448276;SB=0;DP4=0,16,0,13
+AstV-37/B103	458	.	T	A	75	PASS	DP=29;AF=0.448276;SB=0;DP4=0,15,0,13
+AstV-37/B103	464	.	T	A	223	PASS	DP=24;AF=0.750000;SB=0;DP4=0,6,0,18
+AstV-37/B103	465	.	T	C	153	PASS	DP=24;AF=0.625000;SB=0;DP4=0,9,0,15
+AstV-37/B103	468	.	A	G	196	PASS	DP=24;AF=0.708333;SB=0;DP4=0,7,0,17
+AstV-37/B103	474	.	T	C	80	PASS	DP=20;AF=0.550000;SB=0;DP4=0,9,0,11
+AstV-37/B103	476	.	G	C	62	PASS	DP=13;AF=0.384615;SB=0;DP4=0,8,0,5
+AstV-37/B103	477	.	T	C	196	PASS	DP=13;AF=0.846154;SB=0;DP4=0,2,0,11
+AstV-37/B103	479	.	A	G	82	PASS	DP=13;AF=0.461538;SB=0;DP4=0,7,0,6

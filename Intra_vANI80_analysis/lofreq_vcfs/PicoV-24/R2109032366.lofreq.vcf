@@ -1,0 +1,24 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/PicoV-24/R2109032366.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/PicoV-24/R2109032366.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_51,Description="Minimum SNV Quality (Phred) 51">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+PicoV-24/201320	2029	.	A	G	333	PASS	DP=90;AF=0.211111;SB=0;DP4=33,38,9,10
+PicoV-24/201320	2082	.	G	A	249	PASS	DP=86;AF=0.186047;SB=1;DP4=31,34,7,10
+PicoV-24/201320	3603	.	C	T	287	PASS	DP=18;AF=0.555556;SB=7;DP4=2,6,6,4
+PicoV-24/201320	3621	.	A	G	225	PASS	DP=16;AF=0.500000;SB=2;DP4=2,6,4,4
+PicoV-24/201320	4026	.	C	T	499	PASS	DP=14;AF=1.000000;SB=0;DP4=0,0,7,7
+PicoV-24/201320	4141	.	G	A	1262	PASS	DP=39;AF=0.974359;SB=0;DP4=0,0,21,17
+PicoV-24/201320	4287	.	A	G	94	PASS	DP=15;AF=0.266667;SB=2;DP4=3,8,2,2
+PicoV-24/201320	5848	.	G	A	161	PASS	DP=32;AF=0.250000;SB=14;DP4=10,13,0,8

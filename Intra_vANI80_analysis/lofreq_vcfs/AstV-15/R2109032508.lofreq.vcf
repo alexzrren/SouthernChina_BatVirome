@@ -1,0 +1,57 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/AstV-15/R2109032508.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/AstV-15/R2109032508.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_53,Description="Minimum SNV Quality (Phred) 53">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+AstV-15/SZ117	1641	.	A	G	210	PASS	DP=16;AF=1.000000;SB=0;DP4=0,0,14,2
+AstV-15/SZ117	1647	.	A	G	76	PASS	DP=20;AF=0.650000;SB=2;DP4=5,2,11,2
+AstV-15/SZ117	1653	.	A	G	251	PASS	DP=20;AF=1.000000;SB=0;DP4=0,0,16,4
+AstV-15/SZ117	1656	.	C	T	252	PASS	DP=20;AF=1.000000;SB=0;DP4=0,0,16,4
+AstV-15/SZ117	1659	.	A	C	252	PASS	DP=20;AF=1.000000;SB=0;DP4=0,0,16,4
+AstV-15/SZ117	1662	.	C	A	252	PASS	DP=20;AF=1.000000;SB=0;DP4=0,0,16,4
+AstV-15/SZ117	1677	.	T	C	252	PASS	DP=20;AF=1.000000;SB=0;DP4=0,0,16,4
+AstV-15/SZ117	1683	.	A	T	295	PASS	DP=22;AF=1.000000;SB=0;DP4=0,0,15,7
+AstV-15/SZ117	1686	.	T	A	278	PASS	DP=22;AF=1.000000;SB=0;DP4=0,0,15,7
+AstV-15/SZ117	1689	.	T	G	295	PASS	DP=22;AF=1.000000;SB=0;DP4=0,0,15,7
+AstV-15/SZ117	1693	.	T	G	296	PASS	DP=22;AF=1.000000;SB=0;DP4=0,0,15,7
+AstV-15/SZ117	1695	.	A	C	296	PASS	DP=22;AF=1.000000;SB=0;DP4=0,0,15,7
+AstV-15/SZ117	1704	.	A	G	247	PASS	DP=18;AF=1.000000;SB=0;DP4=0,0,11,7
+AstV-15/SZ117	1706	.	G	A	248	PASS	DP=18;AF=1.000000;SB=0;DP4=0,0,11,7
+AstV-15/SZ117	1710	.	A	T	248	PASS	DP=18;AF=1.000000;SB=0;DP4=0,0,11,7
+AstV-15/SZ117	1713	.	A	G	248	PASS	DP=18;AF=1.000000;SB=0;DP4=0,0,11,7
+AstV-15/SZ117	1714	.	G	A	245	PASS	DP=18;AF=0.944444;SB=0;DP4=0,0,11,7
+AstV-15/SZ117	1719	.	T	A	479	PASS	DP=32;AF=0.968750;SB=3;DP4=1,0,12,19
+AstV-15/SZ117	1728	.	C	T	445	PASS	DP=35;AF=0.885714;SB=0;DP4=2,2,12,19
+AstV-15/SZ117	1729	.	T	C	405	PASS	DP=36;AF=0.833333;SB=1;DP4=3,3,11,19
+AstV-15/SZ117	1740	.	T	C	414	PASS	DP=36;AF=0.833333;SB=1;DP4=3,3,11,19
+AstV-15/SZ117	1764	.	A	T	376	PASS	DP=31;AF=0.935484;SB=0;DP4=0,0,10,19
+AstV-15/SZ117	3254	.	G	T	54	PASS	DP=11;AF=0.727273;SB=0;DP4=3,0,6,2
+AstV-15/SZ117	3263	.	T	A	73	PASS	DP=12;AF=0.750000;SB=0;DP4=0,0,5,4
+AstV-15/SZ117	3268	.	T	A	73	PASS	DP=12;AF=0.750000;SB=3;DP4=3,0,5,4
+AstV-15/SZ117	3281	.	G	A	115	PASS	DP=13;AF=0.923077;SB=4;DP4=0,1,8,4
+AstV-15/SZ117	3287	.	C	T	97	PASS	DP=11;AF=0.909091;SB=3;DP4=0,1,6,4
+AstV-15/SZ117	3354	.	A	G	112	PASS	DP=13;AF=1.000000;SB=0;DP4=0,0,6,7
+AstV-15/SZ117	4073	.	A	G	103	PASS	DP=11;AF=0.727273;SB=0;DP4=2,1,4,4
+AstV-15/SZ117	4076	.	A	T	175	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,6,5
+AstV-15/SZ117	4082	.	C	T	104	PASS	DP=11;AF=0.727273;SB=0;DP4=2,1,4,4
+AstV-15/SZ117	4091	.	G	T	123	PASS	DP=10;AF=0.800000;SB=0;DP4=0,0,4,4
+AstV-15/SZ117	4094	.	G	C	123	PASS	DP=10;AF=0.800000;SB=3;DP4=2,0,4,4
+AstV-15/SZ117	4097	.	C	T	175	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,6,4
+AstV-15/SZ117	4100	.	A	G	124	PASS	DP=10;AF=0.800000;SB=3;DP4=2,0,4,4
+AstV-15/SZ117	4102	.	C	G	175	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,6,4
+AstV-15/SZ117	4128	.	T	C	114	PASS	DP=12;AF=0.666667;SB=0;DP4=2,2,4,4
+AstV-15/SZ117	4139	.	G	C	96	PASS	DP=11;AF=0.636364;SB=0;DP4=0,0,3,4
+AstV-15/SZ117	4148	.	C	T	193	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,5,6
+AstV-15/SZ117	4192	.	A	C	97	PASS	DP=11;AF=0.636364;SB=0;DP4=2,2,3,4
+AstV-15/SZ117	4194	.	T	C	98	PASS	DP=11;AF=0.636364;SB=0;DP4=2,2,3,4

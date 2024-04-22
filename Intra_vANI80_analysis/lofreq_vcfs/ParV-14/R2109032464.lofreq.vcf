@@ -1,0 +1,43 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/ParV-14/R2109032464.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/ParV-14/R2109032464.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_53,Description="Minimum SNV Quality (Phred) 53">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+ParV-14/CH035	126	.	G	C	2454	PASS	DP=88;AF=0.977273;SB=2;DP4=2,0,48,38
+ParV-14/CH035	272	.	C	T	1034	PASS	DP=33;AF=0.939394;SB=7;DP4=2,0,12,19
+ParV-14/CH035	536	.	A	G	984	PASS	DP=29;AF=1.000000;SB=0;DP4=0,0,13,16
+ParV-14/CH035	643	.	G	A	672	PASS	DP=19;AF=1.000000;SB=0;DP4=0,0,9,10
+ParV-14/CH035	755	.	G	A	516	PASS	DP=15;AF=1.000000;SB=0;DP4=0,0,7,8
+ParV-14/CH035	827	.	C	G	556	PASS	DP=19;AF=0.947368;SB=0;DP4=0,0,11,7
+ParV-14/CH035	1115	.	A	G	672	PASS	DP=21;AF=0.952381;SB=0;DP4=0,0,12,8
+ParV-14/CH035	1154	.	A	C	879	PASS	DP=26;AF=0.961538;SB=0;DP4=0,0,17,9
+ParV-14/CH035	1420	.	C	T	53	PASS	DP=39;AF=0.102564;SB=0;DP4=13,21,2,2
+ParV-14/CH035	2283	.	T	C	450	PASS	DP=15;AF=0.933333;SB=0;DP4=0,0,6,8
+ParV-14/CH035	2297	.	G	A	358	PASS	DP=13;AF=0.923077;SB=0;DP4=0,0,5,7
+ParV-14/CH035	2328	.	G	A	366	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,4,6
+ParV-14/CH035	2505	.	C	T	418	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,8,4
+ParV-14/CH035	2712	.	C	T	453	PASS	DP=13;AF=1.000000;SB=0;DP4=0,0,10,3
+ParV-14/CH035	2787	.	A	G	1158	PASS	DP=35;AF=0.971429;SB=0;DP4=0,0,22,13
+ParV-14/CH035	3114	.	G	A	1005	PASS	DP=28;AF=1.000000;SB=0;DP4=0,0,9,19
+ParV-14/CH035	4246	.	T	C	1318	PASS	DP=39;AF=1.000000;SB=0;DP4=0,0,21,18
+ParV-14/CH035	4367	.	T	C	1382	PASS	DP=46;AF=0.934783;SB=3;DP4=2,0,22,21
+ParV-14/CH035	4375	.	G	A	1601	PASS	DP=48;AF=1.000000;SB=0;DP4=0,0,25,23
+ParV-14/CH035	4700	.	T	C	1156	PASS	DP=34;AF=0.970588;SB=0;DP4=0,0,18,16
+ParV-14/CH035	4938	.	C	T	966	PASS	DP=29;AF=0.965517;SB=0;DP4=0,0,12,16
+ParV-14/CH035	5373	.	A	G	2908	PASS	DP=87;AF=0.988506;SB=0;DP4=0,0,32,55
+ParV-14/CH035	5388	.	G	A	2795	PASS	DP=82;AF=0.987805;SB=0;DP4=0,0,28,53
+ParV-14/CH035	5732	.	A	T	893	PASS	DP=74;AF=0.418919;SB=0;DP4=26,17,19,12
+ParV-14/CH035	5835	.	T	C	1515	PASS	DP=51;AF=0.980392;SB=0;DP4=0,0,10,40
+ParV-14/CH035	6057	.	T	A	407	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,9,3
+ParV-14/CH035	6058	.	T	G	409	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,9,3

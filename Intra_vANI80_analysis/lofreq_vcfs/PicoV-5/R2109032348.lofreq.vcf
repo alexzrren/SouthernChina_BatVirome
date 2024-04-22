@@ -1,0 +1,61 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/PicoV-5/R2109032348.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/PicoV-5/R2109032348.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_52,Description="Minimum SNV Quality (Phred) 52">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+PicoV-5/CH221	1177	.	A	G	528	PASS	DP=18;AF=0.944444;SB=0;DP4=0,0,15,3
+PicoV-5/CH221	1216	.	A	G	541	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,11,6
+PicoV-5/CH221	1321	.	A	G	640	PASS	DP=19;AF=1.000000;SB=0;DP4=0,0,2,17
+PicoV-5/CH221	2036	.	C	T	411	PASS	DP=13;AF=1.000000;SB=0;DP4=0,0,12,1
+PicoV-5/CH221	2209	.	T	C	622	PASS	DP=18;AF=1.000000;SB=0;DP4=0,0,3,15
+PicoV-5/CH221	2327	.	C	T	634	PASS	DP=18;AF=1.000000;SB=0;DP4=0,0,12,6
+PicoV-5/CH221	2422	.	A	G	507	PASS	DP=15;AF=1.000000;SB=0;DP4=0,0,8,7
+PicoV-5/CH221	2425	.	T	C	532	PASS	DP=15;AF=1.000000;SB=0;DP4=0,0,8,7
+PicoV-5/CH221	2503	.	C	T	557	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,9,8
+PicoV-5/CH221	2827	.	G	A	305	PASS	DP=13;AF=0.846154;SB=0;DP4=1,0,9,2
+PicoV-5/CH221	2968	.	G	T	410	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,3,9
+PicoV-5/CH221	3454	.	G	A	880	PASS	DP=25;AF=1.000000;SB=0;DP4=0,0,15,10
+PicoV-5/CH221	3457	.	A	G	826	PASS	DP=25;AF=1.000000;SB=0;DP4=0,0,15,10
+PicoV-5/CH221	3484	.	T	C	1241	PASS	DP=35;AF=1.000000;SB=0;DP4=0,0,20,15
+PicoV-5/CH221	3595	.	T	C	1310	PASS	DP=37;AF=1.000000;SB=0;DP4=0,0,19,18
+PicoV-5/CH221	4609	.	A	G	380	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,6,5
+PicoV-5/CH221	4975	.	C	T	267	PASS	DP=12;AF=0.833333;SB=0;DP4=0,0,8,2
+PicoV-5/CH221	4978	.	A	G	362	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,10,2
+PicoV-5/CH221	5068	.	T	C	528	PASS	DP=18;AF=0.888889;SB=0;DP4=0,0,8,8
+PicoV-5/CH221	5125	.	G	A	575	PASS	DP=16;AF=1.000000;SB=0;DP4=0,0,9,7
+PicoV-5/CH221	5170	.	T	C	360	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,9,1
+PicoV-5/CH221	5185	.	G	A	305	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,9,1
+PicoV-5/CH221	5194	.	C	A	597	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,9,8
+PicoV-5/CH221	5214	.	T	C	566	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,9,8
+PicoV-5/CH221	5314	.	C	T	358	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,1,9
+PicoV-5/CH221	5668	.	T	C	372	PASS	DP=12;AF=0.916667;SB=0;DP4=0,0,8,4
+PicoV-5/CH221	5929	.	G	A	343	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,1,9
+PicoV-5/CH221	6157	.	A	G	647	PASS	DP=20;AF=1.000000;SB=0;DP4=0,0,10,10
+PicoV-5/CH221	6177	.	C	T	629	PASS	DP=20;AF=1.000000;SB=0;DP4=0,0,10,10
+PicoV-5/CH221	6559	.	G	A	836	PASS	DP=24;AF=1.000000;SB=0;DP4=0,0,12,12
+PicoV-5/CH221	6595	.	A	G	422	PASS	DP=14;AF=0.928571;SB=0;DP4=0,1,2,11
+PicoV-5/CH221	6637	.	C	T	509	PASS	DP=14;AF=1.000000;SB=0;DP4=0,0,2,12
+PicoV-5/CH221	6874	.	A	G	482	PASS	DP=14;AF=1.000000;SB=0;DP4=0,0,13,1
+PicoV-5/CH221	6904	.	A	G	479	PASS	DP=14;AF=1.000000;SB=0;DP4=0,0,12,2
+PicoV-5/CH221	7036	.	A	G	801	PASS	DP=24;AF=1.000000;SB=0;DP4=0,0,15,9
+PicoV-5/CH221	7081	.	T	C	990	PASS	DP=29;AF=1.000000;SB=0;DP4=0,0,15,14
+PicoV-5/CH221	7151	.	G	A	386	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,5,7
+PicoV-5/CH221	7202	.	T	C	422	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,5,7
+PicoV-5/CH221	7222	.	A	G	462	PASS	DP=13;AF=1.000000;SB=0;DP4=0,0,5,8
+PicoV-5/CH221	7246	.	T	C	551	PASS	DP=18;AF=1.000000;SB=0;DP4=0,0,5,13
+PicoV-5/CH221	7312	.	A	G	1320	PASS	DP=40;AF=1.000000;SB=0;DP4=0,0,19,21
+PicoV-5/CH221	7328	.	G	A	1045	PASS	DP=35;AF=0.942857;SB=0;DP4=0,0,17,17
+PicoV-5/CH221	7342	.	C	G	1032	PASS	DP=32;AF=1.000000;SB=0;DP4=0,0,14,18
+PicoV-5/CH221	7344	.	C	T	1045	PASS	DP=32;AF=1.000000;SB=0;DP4=0,0,14,18
+PicoV-5/CH221	7375	.	G	A	936	PASS	DP=28;AF=1.000000;SB=0;DP4=0,0,14,14

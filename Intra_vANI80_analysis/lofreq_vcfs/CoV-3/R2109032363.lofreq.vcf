@@ -1,0 +1,61 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/CoV-3/R2109032363.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/CoV-3/R2109032363.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_54,Description="Minimum SNV Quality (Phred) 54">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+CoV-3/B95	276	.	G	A	591	PASS	DP=19;AF=0.894737;SB=7;DP4=2,0,6,11
+CoV-3/B95	327	.	G	T	516	PASS	DP=17;AF=0.882353;SB=6;DP4=2,0,6,9
+CoV-3/B95	365	.	A	G	72	PASS	DP=15;AF=0.266667;SB=2;DP4=9,2,2,2
+CoV-3/B95	411	.	G	A	646	PASS	DP=20;AF=0.950000;SB=0;DP4=0,0,16,4
+CoV-3/B95	429	.	T	A	719	PASS	DP=20;AF=1.000000;SB=0;DP4=0,0,16,4
+CoV-3/B95	1044	.	C	A	390	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,10,2
+CoV-3/B95	1068	.	A	G	344	PASS	DP=12;AF=0.916667;SB=0;DP4=0,0,10,2
+CoV-3/B95	1110	.	G	A	617	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,10,7
+CoV-3/B95	1235	.	G	A	68	PASS	DP=23;AF=0.173913;SB=10;DP4=8,11,4,0
+CoV-3/B95	1314	.	A	G	448	PASS	DP=13;AF=1.000000;SB=0;DP4=0,0,3,10
+CoV-3/B95	1365	.	G	A	434	PASS	DP=13;AF=1.000000;SB=0;DP4=0,0,4,9
+CoV-3/B95	1377	.	G	A	417	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,3,9
+CoV-3/B95	1404	.	A	G	414	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,3,9
+CoV-3/B95	1519	.	A	G	413	PASS	DP=15;AF=0.866667;SB=0;DP4=0,0,8,5
+CoV-3/B95	1531	.	G	T	618	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,12,5
+CoV-3/B95	1539	.	G	A	613	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,12,5
+CoV-3/B95	1557	.	C	T	640	PASS	DP=18;AF=1.000000;SB=0;DP4=0,0,12,6
+CoV-3/B95	1581	.	G	A	818	PASS	DP=24;AF=1.000000;SB=0;DP4=0,0,19,5
+CoV-3/B95	1618	.	G	A	725	PASS	DP=27;AF=0.814815;SB=0;DP4=3,1,14,8
+CoV-3/B95	1695	.	G	A	1036	PASS	DP=33;AF=1.000000;SB=0;DP4=0,0,16,17
+CoV-3/B95	2152	.	C	T	662	PASS	DP=20;AF=0.950000;SB=0;DP4=0,0,10,10
+CoV-3/B95	3241	.	T	G	496	PASS	DP=17;AF=0.882353;SB=0;DP4=2,0,14,1
+CoV-3/B95	3242	.	T	C	536	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,16,1
+CoV-3/B95	3256	.	T	C	436	PASS	DP=17;AF=0.882353;SB=0;DP4=2,0,14,1
+CoV-3/B95	3282	.	G	A	595	PASS	DP=17;AF=1.000000;SB=0;DP4=0,0,16,1
+CoV-3/B95	3323	.	T	C	490	PASS	DP=14;AF=1.000000;SB=0;DP4=0,0,12,2
+CoV-3/B95	3352	.	C	T	547	PASS	DP=15;AF=1.000000;SB=0;DP4=0,0,10,5
+CoV-3/B95	3398	.	A	G	537	PASS	DP=16;AF=1.000000;SB=0;DP4=0,0,3,13
+CoV-3/B95	3442	.	G	A	554	PASS	DP=18;AF=0.888889;SB=0;DP4=0,2,3,13
+CoV-3/B95	3484	.	T	A	444	PASS	DP=14;AF=0.928571;SB=0;DP4=0,0,2,11
+CoV-3/B95	4669	.	T	C	137	PASS	DP=11;AF=0.454545;SB=0;DP4=6,0,5,0
+CoV-3/B95	6870	.	A	G	347	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,5,5
+CoV-3/B95	10913	.	G	A	252	PASS	DP=15;AF=0.666667;SB=0;DP4=3,2,7,3
+CoV-3/B95	10940	.	G	A	213	PASS	DP=15;AF=0.600000;SB=2;DP4=3,2,7,2
+CoV-3/B95	11009	.	G	A	186	PASS	DP=10;AF=0.700000;SB=0;DP4=0,3,0,7
+CoV-3/B95	11378	.	T	C	65	PASS	DP=12;AF=0.250000;SB=0;DP4=9,0,3,0
+CoV-3/B95	13931	.	A	G	138	PASS	DP=49;AF=0.142857;SB=4;DP4=33,9,4,3
+CoV-3/B95	14015	.	A	G	2436	PASS	DP=67;AF=1.000000;SB=0;DP4=0,0,41,26
+CoV-3/B95	14366	.	T	C	359	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,6,4
+CoV-3/B95	14375	.	C	T	362	PASS	DP=10;AF=1.000000;SB=0;DP4=0,0,6,4
+CoV-3/B95	14414	.	G	A	601	PASS	DP=19;AF=1.000000;SB=0;DP4=0,0,13,6
+CoV-3/B95	14480	.	G	A	494	PASS	DP=16;AF=1.000000;SB=0;DP4=0,0,7,9
+CoV-3/B95	14495	.	G	A	490	PASS	DP=16;AF=1.000000;SB=0;DP4=0,0,7,9
+CoV-3/B95	19834	.	T	C	351	PASS	DP=13;AF=0.923077;SB=0;DP4=1,0,10,2
+CoV-3/B95	19948	.	A	G	345	PASS	DP=12;AF=0.916667;SB=0;DP4=0,1,0,11

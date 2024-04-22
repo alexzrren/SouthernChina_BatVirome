@@ -1,0 +1,24 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/PicoV-4/R2109032306.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/PicoV-4/R2109032306.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_52,Description="Minimum SNV Quality (Phred) 52">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+PicoV-4/CH204	6624	.	G	A	366	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,7,4
+PicoV-4/CH204	6636	.	T	C	344	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,7,4
+PicoV-4/CH204	6642	.	A	G	365	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,7,4
+PicoV-4/CH204	6654	.	T	C	347	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,7,4
+PicoV-4/CH204	6669	.	G	A	395	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,8,4
+PicoV-4/CH204	6687	.	G	T	366	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,6,5
+PicoV-4/CH204	6690	.	A	G	359	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,6,5
+PicoV-4/CH204	6699	.	T	C	365	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,6,5

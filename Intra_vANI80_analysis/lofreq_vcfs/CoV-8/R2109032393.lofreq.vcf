@@ -1,0 +1,27 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/CoV-8/R2109032393.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/CoV-8/R2109032393.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_50,Description="Minimum SNV Quality (Phred) 50">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+CoV-8/200604	25952	.	T	C	383	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,6,5
+CoV-8/200604	25956	.	G	A	367	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,6,5
+CoV-8/200604	25959	.	A	T	386	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,6,5
+CoV-8/200604	25975	.	C	T	410	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,7,5
+CoV-8/200604	25977	.	G	T	418	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,7,5
+CoV-8/200604	25980	.	A	T	413	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,7,5
+CoV-8/200604	25983	.	A	G	410	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,7,5
+CoV-8/200604	25984	.	T	G	425	PASS	DP=12;AF=1.000000;SB=0;DP4=0,0,7,5
+CoV-8/200604	26004	.	A	T	540	PASS	DP=15;AF=1.000000;SB=0;DP4=0,0,7,8
+CoV-8/200604	26016	.	T	C	50	PASS	DP=15;AF=0.133333;SB=0;DP4=6,7,1,1
+CoV-8/200604	26051	.	G	A	379	PASS	DP=11;AF=1.000000;SB=0;DP4=0,0,3,8

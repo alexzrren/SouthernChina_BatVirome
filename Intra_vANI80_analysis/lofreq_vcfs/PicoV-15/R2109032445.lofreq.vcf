@@ -1,0 +1,28 @@
+##fileformat=VCFv4.0
+##fileDate=20231116
+##source=lofreq call -f /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna -o /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/8.lofreq_vcfs/PicoV-15/R2109032445.lofreq.vcf /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSpec_Phylo/All_Rhinolophus_virus/1.fetchbam/PicoV-15/R2109032445.bam 
+##reference=/jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/ViralSequences/RepViralSequences_133seqs.fna
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw Depth">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Frequency">
+##INFO=<ID=SB,Number=1,Type=Integer,Description="Phred-scaled strand bias at this position">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Counts for ref-forward bases, ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=CONSVAR,Number=0,Type=Flag,Description="Indicates that the variant is a consensus variant (as opposed to a low frequency variant).">
+##INFO=<ID=HRUN,Number=1,Type=Integer,Description="Homopolymer length to the right of report indel position">
+##FILTER=<ID=min_dp_10,Description="Minimum Coverage 10">
+##FILTER=<ID=sb_fdr,Description="Strand-Bias Multiple Testing Correction: fdr corr. pvalue > 0.001000">
+##FILTER=<ID=min_snvqual_62,Description="Minimum SNV Quality (Phred) 62">
+##FILTER=<ID=min_indelqual_20,Description="Minimum Indel Quality (Phred) 20">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+PicoV-15/CH011	2109	.	A	G	62	PASS	DP=2336;AF=0.007277;SB=15;DP4=1223,1095,4,13
+PicoV-15/CH011	2271	.	A	C	79	PASS	DP=2089;AF=0.005266;SB=6;DP4=1007,1071,3,8
+PicoV-15/CH011	2484	.	T	C	74	PASS	DP=4828;AF=0.005592;SB=8;DP4=2601,2195,11,17
+PicoV-15/CH011	2488	.	T	A	94	PASS	DP=4843;AF=0.005162;SB=22;DP4=2618,2198,7,19
+PicoV-15/CH011	2857	.	G	A	49314	PASS	DP=1771;AF=0.997177;SB=2;DP4=2,0,1178,590
+PicoV-15/CH011	3377	.	C	A	185	PASS	DP=2046;AF=0.014663;SB=11;DP4=659,1353,5,25
+PicoV-15/CH011	4144	.	T	A	90	PASS	DP=2400;AF=0.007500;SB=8;DP4=1117,1264,5,13
+PicoV-15/CH011	4205	.	A	G	49314	PASS	DP=1684;AF=0.995249;SB=0;DP4=2,2,711,966
+PicoV-15/CH011	4955	.	C	T	6927	PASS	DP=7639;AF=0.061003;SB=2;DP4=2512,4644,158,308
+PicoV-15/CH011	5504	.	C	T	64	PASS	DP=4071;AF=0.007615;SB=1;DP4=2066,1962,15,17
+PicoV-15/CH011	5517	.	A	T	252	PASS	DP=4203;AF=0.011182;SB=33;DP4=2195,1958,13,35
+PicoV-15/CH011	6753	.	C	T	8063	PASS	DP=227;AF=1.000000;SB=0;DP4=0,0,53,174

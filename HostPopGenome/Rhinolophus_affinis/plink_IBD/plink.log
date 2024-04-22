@@ -1,0 +1,29 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --allow-extra-chr
+  --distance-matrix
+  --file ../4.PCA/singlecopy_cds
+
+Hostname: cngb-xcompute-0-10.cngb.sz.hpc
+Working directory: /jdfssz1/ST_HEALTH/P20Z10200N0206/renzirui/Projects/GIZ_SouthernChinaBat_clean/BatPopGenetics/Rhinolophus_affinis/6.distmatx
+Start time: Thu Dec 14 11:36:29 2023
+
+Random number seed: 1702524989
+63966 MB RAM detected; reserving 31983 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (13302 variants, 135 people).
+--file: plink-temporary.bed + plink-temporary.bim + plink-temporary.fam
+written.
+13302 variants loaded from .bim file.
+135 people (0 males, 0 females, 135 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink.nosex .
+Using up to 23 threads (change this with --threads).
+Before main variant filters, 135 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.876205.
+13302 variants and 135 people pass filters and QC.
+Note: No phenotypes present.
+Distance matrix calculation complete.
+Distances (proportions) written to plink.mdist , and IDs to plink.mdist.id .
+
+End time: Thu Dec 14 11:36:29 2023

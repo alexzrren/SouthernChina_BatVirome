@@ -1,0 +1,163 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=61;
+	taxlabels
+	200604-Rhinolophus_affinis-Site6_HZ
+	210533-Rhinolophus_affinis-Site6_HZ
+	B51-Rhinolophus_sinicus-Site1_CH
+	B61-Rhinolophus_sinicus-Site1_CH
+	B63-Rhinolophus_sinicus-Site1_CH
+	B81-Rhinolophus_sinicus-Site1_CH
+	CH174-Rhinolophus_affinis-Site1_CH
+	CH188-Rhinolophus_affinis-Site1_CH
+	CH189-Rhinolophus_affinis-Site1_CH
+	CH203-Rhinolophus_affinis-Site1_CH
+	CH206-Rhinolophus_affinis-Site1_CH
+	'EF203066.1_Bat coronavirus HKU2 strain HKU2|HK|298|2006'
+	'EF203067.1_Bat coronavirus HKU2 strain HKU2|HK|33|2006'
+	HD13593-Rhinolophus_affinis-Site6_HZ
+	HD13611-Rhinolophus_affinis-Site6_HZ
+	'KJ473808.1_BtRf-AlphaCoV|YN2012'
+	'MF094681.1_Swine acute diarrhea syndrome coronavirus isolate FarmA'
+	'MF094682.1_Swine acute diarrhea syndrome coronavirus isolate FarmB'
+	'MF094683.1_Swine acute diarrhea syndrome coronavirus isolate FarmC'
+	'MF094684.1_Swine acute diarrhea syndrome coronavirus isolate FarmD'
+	'MF094685.1_Swine acute diarrhea syndrome related coronavirus isolate 8462'
+	'MF094686.1_Swine acute diarrhea syndrome related coronavirus isolate 8495'
+	'MF094687.1_Swine acute diarrhea syndrome related coronavirus isolate 141388'
+	'MF094688.1_Swine acute diarrhea syndrome related coronavirus isolate 162140'
+	'MF167434.1_Porcine enteric alphacoronavirus GDS04'
+	'MF370205.1_Rhinolophus bat coronavirus HKU2 isolate Swine enteric alphacoronavirus CH|GD-01|2017|P2'
+	'MF769417.1_Swine acute diarrhea syndrome coronavirus isolate 31'
+	'MF769418.1_Swine acute diarrhea syndrome coronavirus isolate 207'
+	'MF769419.1_Swine acute diarrhea syndrome coronavirus isolate 197'
+	'MF769420.1_Swine acute diarrhea syndrome coronavirus isolate 246'
+	'MF769424.1_Swine acute diarrhea syndrome coronavirus isolate 182'
+	'MF769428.1_Swine acute diarrhea syndrome coronavirus isolate 53'
+	'MF769441.1_Swine acute diarrhea syndrome coronavirus isolate 82'
+	'MG557844.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDWT|2017'
+	'MG605090.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDGL|2017'
+	'MG605091.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDLS|2017'
+	'MG742313.1_Porcine enteric alphacoronavirus strain PEAV-GD-CH|2017'
+	'MH539766.1_Porcine enteric alphacoronavirus isolate CHN-GD-2017'
+	'MH615810.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV-CH-FJWT-2018'
+	'MH697599.1_Porcine enteric alphacoronavirus isolate PEAV_GDS04_P12'
+	'MK651076.1_Swine acute diarrhea syndrome coronavirus strain GDLX|2019'
+	'MK977618.1_Swine enteric alphacoronavirus strain SeACoV-p10'
+	'MK994934.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDWT-P7'
+	'MK994935.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDWT-P18'
+	'MK994936.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDWT-P48'
+	'MK994937.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDWT-P83'
+	'MN611522.1_Rhinolophus affinis bat coronavirus HKU2-related isolate 160660'
+	'MT039231.1_Mutant Swine acute diarrhea syndrome coronavirus strain icSADS'
+	'MT039232.1_Mutant Swine acute diarrhea syndrome coronavirus strain icSADS-tRFP'
+	'MT199591.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDGL01|2016'
+	'MT199592.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDZJ02|2018'
+	'MT294722.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV-JX-CH|2018'
+	'MT747186.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDDCD|2017'
+	'MT747187.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDDE|2017'
+	'MT747188.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDST|2017'
+	'MW727454.1_Porcine enteric alphacoronavirus isolate GDZQ-2018'
+	'MZ081399.1_Alphacoronavirus sp. strain bat|Yunnan|RsYN25|2020'
+	'NC_009988.1_Rhinolophus bat coronavirus HKU2'
+	'OK078017.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV-CH-JX2|2018'
+	'OK078018.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV-CH-JX1|2018'
+	'OM994417.1_Swine enteric alphacoronavirus strain SeACoV-p0'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('NC_009988.1_Rhinolophus bat coronavirus HKU2':9.11E-4,('EF203066.1_Bat coronavirus HKU2 strain HKU2|HK|298|2006':1.0E-6,'EF203067.1_Bat coronavirus HKU2 strain HKU2|HK|33|2006':1.0E-6)[&label=100]:0.003184,(((((B81-Rhinolophus_sinicus-Site1_CH:6.62E-4,B51-Rhinolophus_sinicus-Site1_CH:1.0E-6)[&label=95]:0.001135,(B61-Rhinolophus_sinicus-Site1_CH:1.0E-6,B63-Rhinolophus_sinicus-Site1_CH:1.0E-6)[&label=97]:8.62E-4)[&label=100]:0.185187,((((((((((((((('MT747186.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDDCD|2017':0.001355,(('MT747187.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDDE|2017':1.0E-6,('MF094684.1_Swine acute diarrhea syndrome coronavirus isolate FarmD':1.0E-6,'MF769419.1_Swine acute diarrhea syndrome coronavirus isolate 197':1.0E-6)[&label=15]:1.0E-6)[&label=9]:1.0E-6,'MF769418.1_Swine acute diarrhea syndrome coronavirus isolate 207':1.0E-6)[&label=17]:1.0E-6)[&label=14]:1.0E-6,'MK651076.1_Swine acute diarrhea syndrome coronavirus strain GDLX|2019':6.76E-4)[&label=49]:6.75E-4,'MF769428.1_Swine acute diarrhea syndrome coronavirus isolate 53':6.75E-4)[&label=2]:1.0E-6,(((((((('MG557844.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDWT|2017':1.0E-6,('MT039231.1_Mutant Swine acute diarrhea syndrome coronavirus strain icSADS':1.0E-6,((('MK994934.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDWT-P7':1.0E-6,'MK994936.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDWT-P48':1.0E-6)[&label=4]:1.0E-6,'MK994937.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDWT-P83':6.73E-4)[&label=2]:1.0E-6,'MT039232.1_Mutant Swine acute diarrhea syndrome coronavirus strain icSADS-tRFP':1.0E-6)[&label=2]:1.0E-6)[&label=4]:1.0E-6)[&label=1]:1.0E-6,'MK994935.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDWT-P18':1.0E-6)[&label=45]:6.73E-4,'MF769420.1_Swine acute diarrhea syndrome coronavirus isolate 246':1.0E-6)[&label=47]:6.73E-4,('MF769424.1_Swine acute diarrhea syndrome coronavirus isolate 182':1.0E-6,(('MT294722.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV-JX-CH|2018':6.74E-4,'OK078017.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV-CH-JX2|2018':0.001352)[&label=12]:1.0E-6,'OK078018.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV-CH-JX1|2018':1.0E-6)[&label=43]:6.74E-4)[&label=7]:1.0E-6)[&label=28]:6.74E-4,'MG605090.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDGL|2017':6.76E-4)[&label=4]:1.0E-6,'MF094683.1_Swine acute diarrhea syndrome coronavirus isolate FarmC':1.0E-6)[&label=2]:1.0E-6,('MF167434.1_Porcine enteric alphacoronavirus GDS04':1.0E-6,'MT199592.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDZJ02|2018':1.0E-6)[&label=2]:1.0E-6)[&label=0]:1.0E-6,('MG605091.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDLS|2017':1.0E-6,'MW727454.1_Porcine enteric alphacoronavirus isolate GDZQ-2018':1.0E-6)[&label=3]:1.0E-6)[&label=1]:1.0E-6)[&label=1]:1.0E-6,'MF094681.1_Swine acute diarrhea syndrome coronavirus isolate FarmA':1.0E-6)[&label=0]:1.0E-6,'MF094682.1_Swine acute diarrhea syndrome coronavirus isolate FarmB':1.0E-6)[&label=0]:1.0E-6,('MF769417.1_Swine acute diarrhea syndrome coronavirus isolate 31':1.0E-6,'MT199591.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|GDGL01|2016':6.75E-4)[&label=1]:1.0E-6)[&label=1]:1.0E-6,'MT747188.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV|CN|GDST|2017':1.0E-6)[&label=1]:1.0E-6,'MH697599.1_Porcine enteric alphacoronavirus isolate PEAV_GDS04_P12':1.0E-6)[&label=1]:1.0E-6,'MF769441.1_Swine acute diarrhea syndrome coronavirus isolate 82':1.0E-6)[&label=27]:6.75E-4,('OM994417.1_Swine enteric alphacoronavirus strain SeACoV-p0':1.0E-6,('MK977618.1_Swine enteric alphacoronavirus strain SeACoV-p10':1.0E-6,(('MF370205.1_Rhinolophus bat coronavirus HKU2 isolate Swine enteric alphacoronavirus CH|GD-01|2017|P2':1.0E-6,'MG742313.1_Porcine enteric alphacoronavirus strain PEAV-GD-CH|2017':0.005464)[&label=88]:0.001356,'MH539766.1_Porcine enteric alphacoronavirus isolate CHN-GD-2017':0.002722)[&label=14]:1.0E-6)[&label=54]:6.76E-4)[&label=21]:1.0E-6)[&label=100,!color=#006699,!collapse={"collapsed",0.0},!name="SADS-CoV"]:0.013187,200604-Rhinolophus_affinis-Site6_HZ:0.007609)[&label=90]:0.007585,(('MH615810.1_Swine acute diarrhea syndrome coronavirus isolate SADS-CoV-CH-FJWT-2018':6.66E-4,'MF094688.1_Swine acute diarrhea syndrome related coronavirus isolate 162140':1.0E-6)[&label=88]:0.002008,'MF094687.1_Swine acute diarrhea syndrome related coronavirus isolate 141388':1.0E-6)[&label=100]:0.004842)[&label=100]:0.120944,(HD13593-Rhinolophus_affinis-Site6_HZ:0.058572,210533-Rhinolophus_affinis-Site6_HZ:0.011852)[&label=100]:0.153683)[&label=90]:0.068103,'MF094685.1_Swine acute diarrhea syndrome related coronavirus isolate 8462':0.160075)[&label=80]:0.079157)[&label=56]:0.06902,((((((CH203-Rhinolophus_affinis-Site1_CH:1.0E-6,CH189-Rhinolophus_affinis-Site1_CH:1.0E-6)[&label=23]:1.0E-6,CH188-Rhinolophus_affinis-Site1_CH:1.0E-6)[&label=18]:1.0E-6,CH174-Rhinolophus_affinis-Site1_CH:1.0E-6)[&label=97]:1.0E-6,CH206-Rhinolophus_affinis-Site1_CH:0.00266)[&label=99]:3.0E-6,HD13611-Rhinolophus_affinis-Site6_HZ:0.005315)[&label=100]:0.30817,('MN611522.1_Rhinolophus affinis bat coronavirus HKU2-related isolate 160660':0.647387,('MZ081399.1_Alphacoronavirus sp. strain bat|Yunnan|RsYN25|2020':0.27309,'KJ473808.1_BtRf-AlphaCoV|YN2012':0.342365)[&label=100]:0.171455)[&label=93]:0.092927)[&label=58]:0.04283)[&label=71]:0.104929,'MF094686.1_Swine acute diarrhea syndrome related coronavirus isolate 8495':0.30701)[&label=100]:0.177351);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="Helvetica";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=10000;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=14.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Helvetica";
+	set tipLabels.fontSize=20;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+
